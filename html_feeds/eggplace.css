@@ -1,0 +1,81 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ADDFFF;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.navigation {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1em;
+}
+
+.navigation a {
+    color: #1da1f2;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.feed-container {
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.post {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+.username {
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #1da1f2;
+    margin-bottom: 5px;
+}
+
+.user-meta {
+    font-size: 0.85em;
+    color: #657786;
+}
+
+.content {
+    margin-top: 10px;
+    font-size: 1.05em;
+    line-height: 1.5;
+    color: #333;
+}
+
+.replies {
+    margin-top: 12px;
+    padding-left: 15px;
+    border-left: 3px solid #e6ecf0;
+}
+
+.meta {
+    margin-top: 12px;
+    font-size: 0.85em;
+    color: #8899a6;
+}
+
+.meta p {
+    margin: 2px 0;
+}
